@@ -22,7 +22,7 @@
         </style>
     </head>
     <body class="antialiased">
-     <div>   
+        <div>   
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand me-auto" href="#">Unidad Educativa Especializada Manuela Espejo</a>
@@ -35,10 +35,10 @@
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Misión</a>
+                                <a class="nav-link" href="#mision">Misión</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Cursos</a>
+                                <a class="nav-link" href="#cursos">Cursos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contacto</a>
@@ -61,35 +61,211 @@
                 </div>
             </nav>
         </div>
+        <!-- slider-->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="img/s1.png" class="d-block w-100  " alt="...">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-item">
-            <img src="img/s2.png" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="img/s1.png" class="d-block w-100  " alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/s2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="img/s3.png" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-            <img src="img/s3.png" class="d-block w-100" alt="...">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+          <!-- mision y vision-->
+          <hr class="container" >  
+        <h1 class='text-center'> Sobre nosotros</h1>
+        
+        <div class="container" style="background-color: #496479; border-radius: .5rem;">
+        
+        <section id="mision"  >
+            <div class="container">
+               
+                <div class="row ds-about-top-sec">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ds-about-top-sec-loop">
+                <h2 class="ds-heading">Misión</h2>
+                  
             </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ds-about-top-sec-loop">
+                    <p>La Misión Manuela Espejo ha posibilitado que la población con discapacidad del Ecuador sea visibilizada y reconocida en sus derechos y el ejercicio pleno de su ciudadanía, representa un modelo de atención integral a esta población y un nuevo paradigma de cooperación internacional Sur-Sur. </p>
+                </div>
+            </div>
+            
+          </div>
+        </section>
+        <section id="vision">
+            <div class="container">
+               
+                <div class="row ds-about-top-sec">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ds-about-top-sec-loop">
+                <h2 class="ds-heading">Visión</h2>
+                  
+            </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ds-about-top-sec-loop">
+                    <p>El objetivo principal de esta misión es el diseño técnico de políticas públicas integrales a favor de la población discapacitada ecuatoriana a través del diagnóstico integral de su realidad y la implementación de estrategias de respuestas a corto, mediano y largo plazo. </p>
+                </div>
+            </div>
+            
+          </div>
+        </section>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <!-- cursos-->
+        <hr class="container" >  
+        <h1 class='text-center'> Cursos</h1>
+        <div class=" container">
+            <section id="cursos">
+            <div class=" container card-group">
+                <div class="card">
+                <a href="#">    
+                <img class="card-img-top" src="img/Inicial.jpeg" alt="imagen de curso"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Inicial</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#">    
+                    <img class="card-img-top" src="img/elemental.jpg" alt="imagen de curso"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Elemental</h5>
+                    </div>
+                </div>
+            </div>
+            <div class=" container card-group">
+                <div class="card">
+                    <a href="#">    
+                    <img class="card-img-top" src="img/superior.jpg" alt="imagen de curso"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Superior</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#">    
+                    <img class="card-img-top" src="img/bachillerato.jpg" alt="imagen de curso"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Bachillerato</h5>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        </section> 
+        <!-- valores-->
+        <hr class="container" >  
+        <h1 class='text-center'> Valores</h1>
+        
+        <div class="container">
+            <section id="cursos">
+            <div class=" container card-group">
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class=" text-center card-title">Honestidad</h5>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Innovación</h5>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Comprensión</h5>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Rehabilitación</h5>
+                    </div>
+                </div>
+            </div>
+            <div class=" container card-group">
+            <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Respeto</h5>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Perseverancia</h5>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Optimismo</h5>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Responsabilidad</h5>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        </section> 
+        <!-- contacto-->
+        <hr class="container" >  
+        <h1 class='text-center'> Contacto</h1>
+        <!-- footer-->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div class="me-5 d-none d-lg-block"></div>
+            </section>
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Acerca de nosostros
+                            </h6>
+                            <a href="#mision"><p >
+                                Misión y Visión académica
+                            </p></a>
+                        </div>
+                
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Recursos
+                            </h6>
+                            <a href="#"><p >
+                                Noticias y eventos
+                            </p></a>
+                        </div>
+                
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Contacto
+                            </h6>   
+                                <p >
+                                    3852314
+                                </p>
+                                <p >
+                                    Karina.proaño@gmail.com
+                                </p>
+                                
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Universidad de Guayaquil:
         </div>
-
-
-
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     </body>
