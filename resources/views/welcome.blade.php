@@ -21,7 +21,7 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body class="antialiased" style="background-color: #001B4D;">
         <div>   
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -41,7 +41,7 @@
                                 <a class="nav-link" href="#cursos">Cursos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
                             @if (Route::has('login'))
                             @auth
@@ -89,13 +89,13 @@
             </button>
         </div>
           <!-- mision y vision-->
-          <hr class="container" >  
-        <h1 class='text-center'> Sobre nosotros</h1>
+          <hr class="container" style="background-color:white;" >  
+        <h1 class='text-center text-white'> Sobre nosotros</h1>
         
-        <div class="container" style="background-color: #496479; border-radius: .5rem;">
+        <div class="container" style="background-color: white; border-radius: .5rem;">
         
         <section id="mision"  >
-            <div class="container">
+            <div class="container p-2">
                
                 <div class="row ds-about-top-sec">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ds-about-top-sec-loop">
@@ -126,8 +126,8 @@
         </section>
         </div>
         <!-- cursos-->
-        <hr class="container" >  
-        <h1 class='text-center'> Cursos</h1>
+        <hr class="container" style="background-color:white;" >  
+        <h1 class='text-center text-white' > Cursos</h1>
         <div class=" container">
             <section id="cursos">
             <div class=" container card-group">
@@ -165,8 +165,8 @@
         </div>   
         </section> 
         <!-- valores-->
-        <hr class="container" >  
-        <h1 class='text-center'> Valores</h1>
+        <hr class="container" style="background-color:white;" >  
+        <h1 class='text-center text-white'> Valores</h1>
         
         <div class="container">
             <section id="cursos">
@@ -217,14 +217,76 @@
         </div>   
         </section> 
         <!-- contacto-->
-        <hr class="container" >  
-        <h1 class='text-center'> Contacto</h1>
+        <hr class="container" style="background-color:white;" >  
+        <h1 class='text-center text-white'> Contacto</h1>
+        <h4 class='text-center text-white'> "Una discapacidad no es una incapacidad"</h1>
+        <section id="contacto">
+                <div class="container text-center text-md-start mt-5" style="background-color: white; border-radius: .5rem;">
+                <!-- Grid row -->
+                    <div class="row mt-3 p-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <div class="col-md-12">
+                                <div class="well well-sm">
+                                    <form class="form-horizontal" method="post">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                    <div class="col-md-12">
+                                                        <input id="fname" name="name" type="text" placeholder="Nombres" class="form-control">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                                    <div class="col-md-12">
+                                                        <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                                    <div class="col-md-12">
+                                                        <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-md-12 text-center">
+                                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.90726556254!2d-79.89806253200045!3d-2.188833205959294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d778fcea4e7%3A0x9201fd6901df4966!2sUnidad%20Educativa%20Especializada%20Manuela%20Espejo!5e0!3m2!1ses!2sec!4v1643212911324!5m2!1ses!2sec" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <p >
+                                    Unidad Educativa Fiscal Vicente Rocafuerte
+                                </p>
+                                <p >
+                                   Lunes-Viernes 8:00 am - 12:00 pm
+                                </p>
+                                <p >
+                                   0987567891
+                                </p>
+                                <p >
+                                    Karina.proaño@gmail.com
+                                </p>
+                                
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <!-- footer-->
         <footer class="text-center text-lg-start bg-light text-muted">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <div class="me-5 d-none d-lg-block"></div>
             </section>
-            <section class="">
+            <section>
                 <div class="container text-center text-md-start mt-5">
                 <!-- Grid row -->
                     <div class="row mt-3">
